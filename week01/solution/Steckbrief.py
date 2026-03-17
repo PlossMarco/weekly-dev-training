@@ -6,7 +6,7 @@ Die Funktion Steckbrief() gibt die Informationen über eine Person aus.
 
 
 def steckbrief():
-
+    """Diese Funktion gibt die Informationen über eine Person aus."""
     name = "Marco Ploss"
     alter = 33
     lieblingszahl = 42
@@ -14,7 +14,6 @@ def steckbrief():
     print("Name:", name)
     print("Alter:", alter)
     print("Lieblingszahl:", lieblingszahl)
-
 
 if __name__ == "__main__":
     steckbrief()

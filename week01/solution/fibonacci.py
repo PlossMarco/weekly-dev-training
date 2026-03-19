@@ -10,7 +10,7 @@ def fibonacci(n):
     a = 0
     b = 1
 
-    for i in range(n):
+    for _ in range(n):
         print(a)
         a, b = b, a + b
         # neues a = altes b
@@ -18,3 +18,6 @@ def fibonacci(n):
 
 
 fibonacci(10)
+
+if __name__ == "__main__":
+    fibonacci(10)

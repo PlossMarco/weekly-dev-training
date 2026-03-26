@@ -13,7 +13,6 @@ def user_guess():
             return int(input("Dein guess: "))
         except ValueError:
             print("Bitte gib eine gültige Zahl (1 - 100) ein!")
-            return user_guess()
 
 def random_number():
     """Diese Funktion generiert eine zufällige Zahl zwischen 1 und 100."""

@@ -7,7 +7,7 @@ Aufgaben hinzuzufügen, anzuzeigen und zu entfernen.
 def new_task():
     """Diese Funktion ermöglicht es dem Benutzer, eine neue Aufgabe hinzuzufügen."""
     with open("task.txt", "a", encoding="utf-8") as f:
-        hinzufügenf.write(input("Aufgabe: ") + "\n")
+        f.write(input("Aufgabe: ") + "\n")
 
 def show_tasks():
     """Diese Funktion zeigt alle Aufgaben in der To-Do-Liste an."""
